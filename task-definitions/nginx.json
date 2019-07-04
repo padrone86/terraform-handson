@@ -18,14 +18,14 @@
         "memoryReservation": 2048,
         "image": "383466607609.dkr.ecr.ap-northeast-1.amazonaws.com/aoki-repository:latest",
         "healthCheck": {
-        "retries": 10,
-        "command": [
-            "CMD-SHELL",
-            "curl -f http://localhost/ || exit 1"
-        ],
-        "timeout": 20,
-        "interval": 60,
-        "startPeriod": 120
+            "retries": 10,
+            "command": [
+                "CMD-SHELL",
+                "curl -f http://localhost/ || exit 1"
+            ],
+            "timeout": 20,
+            "interval": 60,
+            "startPeriod": 120
         },
         "essential": true
     }
