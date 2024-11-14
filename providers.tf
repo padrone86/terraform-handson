@@ -8,5 +8,6 @@ provider "aws" {
   default_tags {
     tags = {
       purpose = "hands-on"
+    }
   }
 }
